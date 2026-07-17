@@ -252,36 +252,6 @@
         gtag('config', 'G-ffgfgfg');
     </script>
 
-    <style>
-   
-
-        /* ------ الكلاس المطلوب الذي سيتم تفعيله عند الضغط على الزر ------ */
-        html.fullscreen-mode,
-        html.fullscreen-mode body {
-            margin: 0;
-            padding: 0;
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden; /* منع التمرير */
-            background-color: #ffffff; /* يمكنك تغيير اللون هنا لتجنب الأسود */
-        }
-
-        /* تنسيق الزر فقط للتجميل */
-     
-    </style>
-
-       <script>
-        document.getElementById('action-button').addEventListener('click', function() {
-            // تبديل (Toggle) الكلاس على عنصر html
-            document.documentElement.classList.toggle('fullscreen-mode');
-
-            // تغيير نص الزر حسب الحالة (اختياري)
-            if (document.documentElement.classList.contains('fullscreen-mode')) {
-                this.textContent = 'الرجوع للوضع العادي';
-            } else {
-                this.textContent = 'تفعيل وضع التكبير';
-            }
-        });
-    </script>
+    
 </body>
 </html>
