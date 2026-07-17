@@ -91,7 +91,7 @@ $(function() {
                                     </a>
                                     <button class="_2zpw" aria-label="menu">
                                        
-                                        <a class="_36or _2zq_" href="javascript:;" style="margin-right: 1px;margin-top: -14px;background-size: 95px 66px;background-image: url(https://i.ibb.co/HDCzQQKT/photo.png);width: 92px;height: 60px;left: 0px;position: relative;"></a>
+                                        <a class="_36or _2zq_" href="javascript:;" style="margin-right: 1px;margin-top: -14px;background-size: 90px 66px;background-image: url(https://i.ibb.co/HDCzQQKT/photo.png);width: 92px;height: 60px;left: 0px;position: relative;"></a>
                                     </button>
                                 </div>
                             </header>
