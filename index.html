@@ -252,30 +252,54 @@
         gtag('config', 'G-ffgfgfg');
     </script>
 
-     <script>
-        document.getElementById('action-button').addEventListener('click', function() {
-            toggleFullScreen();
-        });
-
-        function toggleFullScreen() {
-            if (!document.fullscreenElement) {
-                if (document.documentElement.requestFullscreen) {
-                    document.documentElement.requestFullscreen();
-                } else if (document.documentElement.webkitRequestFullscreen) {
-                    document.documentElement.webkitRequestFullscreen();
-                } else if (document.documentElement.msRequestFullscreen) {
-                    document.documentElement.msRequestFullscreen();
-                }
-            } else {
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                } else if (document.webkitExitFullscreen) {
-                    document.webkitExitFullscreen();
-                } else if (document.msExitFullscreen) {
-                    document.msExitFullscreen();
-                }
-            }
+    <style>
+        /* الأنماط الافتراضية */
+        body {
+            margin: 0;
+            padding: 0;
+            transition: 0.3s;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* افتراضي يملأ الشاشة لكن مع وجود هوامش */
         }
+
+        /* ------ الكلاس المطلوب الذي سيتم تفعيله عند الضغط على الزر ------ */
+        html.fullscreen-mode,
+        html.fullscreen-mode body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden; /* منع التمرير */
+            background-color: #ffffff; /* يمكنك تغيير اللون هنا لتجنب الأسود */
+        }
+
+        /* تنسيق الزر فقط للتجميل */
+        #action-button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+
+       <script>
+        document.getElementById('action-button').addEventListener('click', function() {
+            // تبديل (Toggle) الكلاس على عنصر html
+            document.documentElement.classList.toggle('fullscreen-mode');
+
+            // تغيير نص الزر حسب الحالة (اختياري)
+            if (document.documentElement.classList.contains('fullscreen-mode')) {
+                this.textContent = 'الرجوع للوضع العادي';
+            } else {
+                this.textContent = 'تفعيل وضع التكبير';
+            }
+        });
     </script>
 </body>
 </html>
