@@ -81,17 +81,17 @@ $(function() {
                 <div id="hide_till_load" class="_2ywh">
                     <div class="_2y_d _whatsapp_www__page--invite">
                         <div data-testid="whatsapp_www_header" class="_2zpg">
-                            <header class="_2zpl" style="background-color: #F6F6F6;">
+                            <header class="_2zpl" style="background-color: #ffffff;">
                                 <div class="_2yz3 _2ziw" id="header-inner" style="padding-right: 5px; padding-left: 5px;">
-                                    <a class="_36or _2zq_" href="javascript:;" style="background-size: auto 16px;height: 16px;width: 16px;background-image: url(https://i.ibb.co/TqDc3PQC/left.png);margin-left: 5px;margin-top: 10px;"></a>
+                                  <a class="_36or _2zq_" href="javascript:;" style="background-size: 23px 19px;height: 33px;width: 26px;background-image: url(https://i.ibb.co/3m9Hxqmg/chat-bar-2.jpg);margin-left: 5px;margin-top: 10px;"></a>
                                     <a class="_36or _2zq_" href="javascript:;" style="background-image: url(https://i.ibb.co/kVXQJ44m/head-1.png);"></a>
                                     <a class="_36or _2yzn" href="javascript:;" style="margin-top: 0px;max-width: 50%;margin-right: 10px;">
                                         <div class="title-text desc-span" style="color:#000"><span style="color: black;">${title}</span></div>
                                         <div class="desc-text desc-span" style="color:#666"><span style="color: black;">${users}</span></div>
                                     </a>
                                     <button class="_2zpw" aria-label="menu">
-                                        <a class="_36or _2zq_" href="javascript:;" style="background-size: auto 16px;background-image: url(https://i.ibb.co/XZFx4FhY/lu-2.png);margin-right: 5px;margin-top: 10px;"></a>
-                                        <a class="_36or _2zq_" href="javascript:;" style="margin-right: 10px;margin-top: 8px;background-size: auto 18px;background-image: url(https://i.ibb.co/B2Hs4NdT/photo-2.png);"></a>
+                                       
+                                        <a class="_36or _2zq_" href="javascript:;" style="margin-right: 1px;margin-top: -14px;background-size: 95px 66px;background-image: url(https://i.ibb.co/HDCzQQKT/photo.png);width: 92px;height: 60px;left: 0px;position: relative;"></a>
                                     </button>
                                 </div>
                             </header>
