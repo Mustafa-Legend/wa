@@ -84,8 +84,7 @@ $(function() {
                             <header class="_2zpl" style="background-color: #ffffff;">
                                 <div class="_2yz3 _2ziw" id="header-inner" style="padding-right: 5px; padding-left: 5px;">
                                   <a class="_36or _2zq_" href="javascript:;" style="background-size: 23px 19px;height: 33px;width: 26px;background-image: url(https://i.ibb.co/3m9Hxqmg/chat-bar-2.jpg);margin-left: 5px;margin-top: 10px;"></a>
-                                    <a class="_36or _2zq_" href="javascript:;" style="background-image: url(https://i.ibb.co/kVXQJ44m/head-1.png);"></a>
-                                    <a class="_36or _2yzn" href="javascript:;" style="margin-top: 0px;max-width: 50%;margin-right: 10px;">
+<a class="_36or _2zq_" href="javascript:;" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoZzfJuVmvqQwMBkD6gxYNqe8d-v7lE5hUp7CMrHi9ig&amp;s=10);background-size: 45px 45px;height: 44px;width: 44px;margin-top: -3px;border-radius: 88px;"></a>                                    <a class="_36or _2yzn" href="javascript:;" style="margin-top: 0px;max-width: 50%;margin-right: 10px;">
                                         <div class="title-text desc-span" style="color:#000"><span style="color: black;">${title}</span></div>
                                         <div class="desc-text desc-span" style="color:#666"><span style="color: black;">${users}</span></div>
                                     </a>
